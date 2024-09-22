@@ -1,0 +1,46 @@
+.nav{
+    font-family: "Poppins", sans-serif;
+}
+a{
+    font-family: "Poppins", sans-serif;
+}
+.manolo{
+    height: 7vh;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+.manolo::selection{
+    background-color: rgb(124, 59, 59);
+    color: #ffffff;
+}
+li::selection{
+    background-color: rgb(124, 59, 59);
+    color: #ffffff;
+}
+.card-img-top{
+    height: 90vh;
+    width: 200%;
+    position: relative;
+    left: 70px;
+    top: 50px;
+    border: none;
+}
+#end{
+    position: absolute;
+    left: 750px;
+    top: 620px;
+    text-align-last: left;
+    font-family: "Bubblegum Sans", sans-serif;
+    font-weight: bold;
+    color: #F894B4;
+    word-spacing: 0.3em;
+}
+#ends{
+    position: absolute;
+    left: 750px;
+    top: 750px;
+    font-family: "Poppins", sans-serif;
+    text-align-last: left;
+    font-size: 16px;
+}
